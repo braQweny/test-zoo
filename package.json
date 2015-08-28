@@ -1,16 +1,25 @@
 {
-  "name": "app",
+  "name": "test-zoo",
   "version": "1.0.0",
-  "description": "",
+  "description": "//TODO",
   "main": "index.js",
+  "dependencies": {
+    "jest-cli": "^0.5.0"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.5.0"
+  },
   "scripts": {
- "test": "jest"
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braQweny/test-zoo.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jest-cli": "^0.5.0"
-  }
+  "bugs": {
+    "url": "https://github.com/braQweny/test-zoo/issues"
+  },
+  "homepage": "https://github.com/braQweny/test-zoo#readme"
 }
-
-

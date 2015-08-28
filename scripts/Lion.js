@@ -7,4 +7,3 @@ function Lion(name) {
         console.log('xxxxxxxxxxx');
     }
 }
-var test = new Lion();

@@ -7,4 +7,3 @@ function Elephant(name) {
         console.log('####################');
     }
 }
-var test2 = new Elephant();
