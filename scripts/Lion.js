@@ -1,5 +1,5 @@
-Lion.prototype = new Animal();
-Lion.prototype.constructor = Elephant;
+Lion.prototype = Animal.prototype;
+Lion.prototype.constructor = Lion;
 
 function Lion(name) {
     this.name = name;

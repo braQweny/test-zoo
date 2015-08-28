@@ -1,4 +1,4 @@
-Elephant.prototype = new Animal();
+Elephant.prototype = Animal.prototype;
 Elephant.prototype.constructor = Elephant;
 
 function Elephant(name) {
