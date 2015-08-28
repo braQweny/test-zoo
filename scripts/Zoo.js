@@ -4,4 +4,5 @@ zoo.add(new Lion('Franek'))
 	.add(new Lion('Bogdan'))
 	.add(new Elephant('Wania'))
 	.add(new Elephant('Bożena'));
+zoo.
 
