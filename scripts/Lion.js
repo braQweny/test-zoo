@@ -1,3 +1,4 @@
+var Animal = require('./Animal');
 Lion.prototype = Animal.prototype;
 Lion.prototype.constructor = Lion;
 
@@ -7,3 +8,4 @@ function Lion(name) {
         console.log('xxxxxxxxxxx');
     }
 }
+module.exports = Lion;

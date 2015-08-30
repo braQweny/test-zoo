@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "//TODO",
   "main": "index.js",
-  "dependencies": {
-    "jest-cli": "^0.5.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jest-cli": "^0.5.0"
   },

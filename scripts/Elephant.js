@@ -1,3 +1,4 @@
+var Animal = require('./Animal');
 Elephant.prototype = Animal.prototype;
 Elephant.prototype.constructor = Elephant;
 
@@ -7,3 +8,4 @@ function Elephant(name) {
         console.log('####################');
     }
 }
+module.exports = Elephant;
