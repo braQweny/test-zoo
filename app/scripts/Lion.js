@@ -1,5 +1,5 @@
 var Animal = require('./Animal');
-Lion.prototype = Animal.prototype;
+Lion.prototype = new Animal();
 Lion.prototype.constructor = Lion;
 
 function Lion(name) {
