@@ -1,11 +1,11 @@
 var Animal = require('./Animal');
 Elephant.prototype = new Animal();
-Elephant.prototype.constructor = Elephant;
+Elephant.prototype.getRoar = function() {
+    console.log('####################');
+}
 
 function Elephant(name) {
     this.name = name;
-    this.getRoar = function() {
-        console.log('####################');
-    }
 }
+Elephant.prototype.constructor = Elephant;
 module.exports = Elephant;

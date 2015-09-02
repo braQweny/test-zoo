@@ -1,5 +1,5 @@
 # test-zoo
-a simple example of inheritance
+>a simple example of inheritance
 
 ### Run Test
 ```sh
