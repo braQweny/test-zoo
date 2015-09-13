@@ -1,6 +1,6 @@
 var Animal = require('./Animal');
 Lion.prototype = new Animal();
-Lion.prototype.getRoar = function() {
+Lion.prototype.getRoar = function () {
     console.log('xxxxxxxxxxx');
 }
 
