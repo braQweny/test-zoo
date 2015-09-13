@@ -1,8 +1,9 @@
 'use strict';
 
-function Animal() {};
+function Animal() {
+    this.name = undefined;
+};
 
-Animal.prototype.name = undefined;
 Animal.prototype.getRoar = function () {
     throw new Error('lack implemented roar');
 };
