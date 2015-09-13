@@ -32,4 +32,3 @@ it('inherit from Animal', function () {
         }
     });
 });
-
