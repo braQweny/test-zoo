@@ -14,6 +14,7 @@ zoo.add(new Elephant('Wania'));
 zoo.add(new Elephant('Bożena'));
 
 describe('zoo', function () {
+
     it('inherit from Animal', function () {
         for (var animal in zoo) {
             expect(Animal.prototype.isPrototypeOf(animal)).toBeTruthy();
@@ -31,4 +32,5 @@ describe('zoo', function () {
             expect(animal.hasOwnProperty('name')).toBeTruthy();
         }
     });
+
 });
