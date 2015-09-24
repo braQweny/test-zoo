@@ -1,7 +1,9 @@
 # test-zoo
+
 >a simple example of inheritance
 
 ### Run Test
+
 ```sh
 install nvm 
 https://github.com/creationix/nvm 

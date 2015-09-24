@@ -10,7 +10,7 @@ Elephant.prototype = new Animal();
 Elephant.prototype.constructor = Elephant;
 
 Elephant.prototype.getRoar = function () {
-    console.log('####################');
-}
+    return '####################';
+};
 
 module.exports = Elephant;

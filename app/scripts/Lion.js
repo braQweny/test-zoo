@@ -10,7 +10,7 @@ Lion.prototype = new Animal();
 Lion.prototype.constructor = Lion;
 
 Lion.prototype.getRoar = function () {
-    console.log('xxxxxxxxxxx');
+    return 'xxxxxxxxxxx';
 };
 
 module.exports = Lion;
