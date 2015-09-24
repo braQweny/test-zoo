@@ -30,7 +30,7 @@ describe('zoo', function () {
         expect(Lion.prototype.hasOwnProperty('getRoar')).toBeTruthy();
 
         for (var x of zoo) {
-            expect(x.getRoar()==='xxxxxxxxxxx'||x.getRoar()==='####################').toBeTruthy();
+            expect(x.getRoar() === 'xxxxxxxxxxx' || x.getRoar() === '####################').toBeTruthy();
         };
 
     });
@@ -48,11 +48,11 @@ describe('zoo', function () {
 
         var testAnimal = new Animal();
 
-        try{
+        try {
             testAnimal.getRoar();
         }
-        
-        catch(e){
+
+        catch (e) {
             expect(e.message).toBe('lack implemented roar');
         }
 
