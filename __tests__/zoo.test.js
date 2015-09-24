@@ -51,6 +51,7 @@ describe('zoo', function () {
         try{
             testAnimal.getRoar();
         }
+        
         catch(e){
             expect(e.message).toBe('lack implemented roar');
         }
