@@ -23,7 +23,7 @@ describe('zoo', function () {
             expect(animal instanceof Animal).toBeTruthy();
 
         }
-        
+
     });
 
     it('overwrite method getRoar', function () {
@@ -32,7 +32,9 @@ describe('zoo', function () {
         expect(Lion.prototype.hasOwnProperty('getRoar')).toBeTruthy();
 
         for (var x of zoo) {
+
             expect(x.getRoar()==='xxxxxxxxxxx'||x.getRoar()==='####################').toBeTruthy();
+            
         };
 
     });
