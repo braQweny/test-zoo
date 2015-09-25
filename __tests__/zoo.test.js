@@ -50,13 +50,11 @@ describe('zoo', function () {
 
         var testChimera = new HalfManHalfBearHalfPig();
 
-<<<<<<< HEAD
-        try {
-            testAnimal.getRoar();
-=======
+
+
         try{
             testChimera.getRoar();
->>>>>>> test
+
         }
 
         catch (e) {
