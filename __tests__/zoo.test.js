@@ -52,7 +52,6 @@ describe('zoo', function () {
 
         try{
             testChimera.getRoar();
-
         }
 
         catch (e) {
@@ -62,5 +61,6 @@ describe('zoo', function () {
     });
 
 });
+
 
 
