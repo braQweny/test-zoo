@@ -1,10 +1,12 @@
 jest.dontMock('../app/scripts/Animal');
 jest.dontMock('../app/scripts/Elephant');
 jest.dontMock('../app/scripts/Lion');
+jest.dontMock('../app/scripts/HalfManHalfBearHalfPig');
 
 var Animal = require('../app/scripts/Animal');
 var Elephant = require('../app/scripts/Elephant');
 var Lion = require('../app/scripts/Lion');
+var HalfManHalfBearHalfPig = require('../app/scripts/HalfManHalfBearHalfPig');
 
 var zoo = new Set();
 zoo.add(new Lion('Franek'));
@@ -46,10 +48,10 @@ describe('zoo', function () {
 
     it('!(getRoar implementation)', function () {
 
-        var testAnimal = new Animal();
+        var testChimera = new HalfManHalfBearHalfPig();
 
         try{
-            testAnimal.getRoar();
+            testChimera.getRoar();
         }
         
         catch(e){
