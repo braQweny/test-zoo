@@ -8,5 +8,5 @@ function HalfManHalfBearHalfPig(name) {
 
 HalfManHalfBearHalfPig.prototype = new Animal();
 HalfManHalfBearHalfPig.prototype.constructor = HalfManHalfBearHalfPig;
-
+			
 module.exports = HalfManHalfBearHalfPig;
